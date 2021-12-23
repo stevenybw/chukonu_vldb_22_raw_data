@@ -1,7 +1,7 @@
 # Data and scripts for Chukonu's paper at VLDB '22
 
 This repository contains the data and scripts necessary to draw the evaluation figures in Chukonu's paper.
-Unfortunately, we are not able to open the source code of Chukonu for now due to a time-bounded open-source restriction.
+Unfortunately, we are not able to open the source code of Chukonu for now due to a time-bounded open-source restriction by a contract.
 
 ## Dependencies
 
