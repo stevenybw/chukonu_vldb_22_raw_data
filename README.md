@@ -1,11 +1,33 @@
 # Data and scripts for Chukonu's paper at VLDB '22
 
+This repository contains the data and scripts necessary to draw the evaluation figures in Chukonu's paper.
+Unfortunately, we are not able to open the source code of Chukonu for now due to a time-bounded open-source restriction.
+
 ## Dependencies
 
 * Python 3.8
-* pandas (`pip install pandas`)
-* matplotlib (`pip install matplotlib`)
-* pandasql (`pip install pandasql`)
+* pandas
+* matplotlib
+* pandasql
+* scipy
+* IPython
+
+## Prepare for environment on Ubuntu 18.04.2 LTS
+
+```bash
+sudo apt install python3.8 python3.8-venv python3.8-dev libpython3.8-dev libjpeg-dev zlib1g-dev libopenblas-dev
+cd ~
+python3.8 -m venv python3.8-venv
+source ~/python3.8-venv/bin/activate
+pip install Cython
+pip install wheel
+pip install numpy
+pip install pandas matplotlib pandasql
+pip install pythran
+pip install pybind11
+pip install scipy
+pip install IPython
+```
 
 ## To draw figures
 
